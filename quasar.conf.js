@@ -28,7 +28,7 @@ module.exports = configure(function (ctx) {
 
     // https://v2.quasar.dev/quasar-cli/quasar-conf-js#Property%3A-css
     css: [
-      'app.scss'
+      'app.css'
     ],
 
     // https://github.com/quasarframework/quasar/tree/dev/extras
@@ -47,7 +47,6 @@ module.exports = configure(function (ctx) {
 
     // Full list of options: https://v2.quasar.dev/quasar-cli/quasar-conf-js#Property%3A-build
     build: {
-      // FIXME
       vueRouterMode: 'hash', // available values: 'hash', 'history'
 
       // transpile: false,
@@ -77,7 +76,7 @@ module.exports = configure(function (ctx) {
     // Full list of options: https://v2.quasar.dev/quasar-cli/quasar-conf-js#Property%3A-devServer
     devServer: {
       https: false,
-      port: 8088,
+      port: 8080,
       open: true // opens browser window automatically
     },
 
@@ -142,11 +141,11 @@ module.exports = configure(function (ctx) {
       manifest: {
         name: `Golf Tv`,
         short_name: `Golf Tv`,
-        description: `Golf Tv Applications`,
+        description: `A Quasar Framework app`,
         display: 'standalone',
         orientation: 'portrait',
         background_color: '#ffffff',
-        theme_color: '#002f24',
+        theme_color: '#027be3',
         icons: [
           {
             src: 'icons/icon-128x128.png',

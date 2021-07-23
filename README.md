@@ -1,6 +1,6 @@
 # Golf Tv (golf-tv)
 
-Golf Tv Applications
+A Quasar Framework app
 
 ## Install the dependencies
 ```bash

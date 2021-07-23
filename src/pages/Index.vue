@@ -1,5 +1,6 @@
 <template>
-  <q-page class="flex flex-center">
+  <q-page class="flex flex-center rounded-full text-green-900">
+  test tect
     <img
       alt="Quasar logo"
       src="~assets/quasar-logo-vertical.svg"

@@ -1,7 +1,7 @@
 {
   "name": "golf-tv",
   "version": "0.0.1",
-  "description": "Golf Tv Applications",
+  "description": "A Quasar Framework app",
   "productName": "Golf Tv",
   "author": "Timothy Odebunmi <dev.brymes@gmail.com>",
   "private": true,
@@ -20,11 +20,13 @@
   "devDependencies": {
     "@babel/eslint-parser": "^7.13.14",
     "@quasar/app": "^3.0.0",
+    "autoprefixer": "9",
     "eslint": "^7.14.0",
     "eslint-config-prettier": "^8.1.0",
     "eslint-plugin-vue": "^7.0.0",
     "eslint-webpack-plugin": "^2.4.0",
-    "quasar-app-extension-tailwindcss": "^2.0.5"
+    "postcss": "7",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat"
   },
   "browserslist": [
     "last 10 Chrome versions",
